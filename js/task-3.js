@@ -12,14 +12,14 @@
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let message; */
 
-const adminPassword = 'jqueryismyjam';
+const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;
 const password = prompt('Введите пароль') 
     if (password === null) {
         message = ('Отменено пользователем!');
         alert (message);
     }
-    else if (password === adminPassword) {
+    else if (password === ADMIN_PASSWORD) {
     message = ('Добро пожаловать!');
         alert (message);
     }
