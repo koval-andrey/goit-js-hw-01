@@ -16,9 +16,9 @@
 Индия - 80 кредитов
 Ямайка - 120 кредитов
 */
-/*
 
-/ ВАРИАНТ№1 
+
+/* ВАРИАНТ№1 */
 
 const country = prompt('Введите страну доставки').toLowerCase();
 
@@ -47,12 +47,12 @@ switch(country) {
     default: alert ('В вашей стране доставка не доступна');
     break;
 }
-alert(`'Доставка в ${country.toUpperCase()} будет стоить ${price} кредитов'`);
-
-*/
+alert(`'Доставка в ${country} будет стоить ${price} кредитов'`);
 
 
-/*ВАРИАНТ№2 */
+
+
+/*ВАРИАНТ№2 *
 
 const country = prompt('Введите страну доставки');
 const countryInput = country.toLowerCase();
@@ -86,4 +86,5 @@ switch(countryInput) {
     break;
 
 }
+*/
 
