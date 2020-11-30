@@ -21,33 +21,34 @@
 /* ВАРИАНТ№1 */
 
 const country = prompt('Введите страну доставки').toLowerCase();
+const countryOutput = country[0].toUpperCase() + country.slice(1);
 
 let price;
-switch(country) {
-    case 'китай':
+switch(countryOutput) {
+    case 'Китай':
     price = 100;
 
     break;
     
-    case 'чили':
+    case 'Чили':
     price = 250;
     break;
 
-    case 'австралия':
+    case 'Австралия':
     price = 170;
     break;
 
-    case 'индия':
+    case 'Индия':
     price = 80;
     break;
-    case 'ямайка':
+    case 'Ямайка':
     price = 120;
     break;
 
     default: alert ('В вашей стране доставка не доступна');
     break;
 }
-alert(`'Доставка в ${country} будет стоить ${price} кредитов'`);
+alert(`'Доставка в ${countryOutput} будет стоить ${price} кредитов'`);
 
 
 
